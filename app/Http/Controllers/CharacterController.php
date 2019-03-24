@@ -82,7 +82,7 @@ class CharacterController extends Controller
             ], 403);
         }
         $character->update(['active' => false]);
-
+//test commit
         return response()->json(null, 204);
     }
 }
